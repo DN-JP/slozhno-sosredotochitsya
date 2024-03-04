@@ -4,35 +4,38 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   color: var(--text-color, #F1B2CE);
   font-family: var(--main-font, sans-serif);
-  font-size: 18px;
-  line-height: 23.4px;
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
   background-color: var(--bg-color, #000028);
-  min-width: 375px;
+  min-inline-size: 375px;
 }
 
-/* Header */
+/* Header & decoration */
 
 .header {
   display: grid;
-  grid-template-columns: repeat(8, auto);
-  grid-template-rows: repeat(8, 1fr);
-  min-height: 668px;
-  padding: 0 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  min-block-size: 668px;
+  padding: 20px 10px 0;
+  background-image: url(../images/cover-image-dark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .header__theme-menu {
   display: grid;
   align-items: center;
-  grid-column: -1 / -2;
-  grid-row: 1 / 4;
-  line-height: 18px;
-  font-weight: 400;
+  justify-content: end;
+  margin-block-end: 10px;
 }
 
 .header__theme-menu-list {
   display: grid;
   gap: 10px;
   color: var(--accent-color, #FF0070);
+  text-align: center;
 }
 
 .header__theme-menu-button {
@@ -40,5 +43,35 @@
   height: 26px;
   border: none;
   background: transparent;
+  cursor: pointer;
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:hover {
+  border: var(--accent-color) 1px solid;
+}
+
+.header__title {
+  padding-block-start: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #DB00FF;
+  font-size: clamp(7.25rem, 5.7694rem + 6.3174vi, 9.8125rem);
+  line-height: 95.7px;
+  text-shadow: 4px 4px 0px var(--accent-color);
+  font-weight: 700;
+}
+
+.header__page-overview {
+  background-color: var(--accent-color);
+  color: var(--section-title-color);
+  font-size: var(--main-font-size);
+  /* temporarily added */
+  block-size: 117px;
+  align-self: center;
+  margin-block-end: 2rem;
 }
 
