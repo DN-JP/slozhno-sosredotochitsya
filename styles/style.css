@@ -5,6 +5,7 @@
   color: var(--text-color, #F1B2CE);
   font-family: var(--main-font, sans-serif);
   font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
   line-height: var(--main-line-height);
   background-color: var(--bg-color, #000028);
   min-inline-size: 375px;
@@ -62,16 +63,48 @@
   font-size: clamp(7.25rem, 5.7694rem + 6.3174vi, 9.8125rem);
   line-height: 95.7px;
   text-shadow: 4px 4px 0px var(--accent-color);
-  font-weight: 700;
+  font-weight: var(--font-weight-title);
 }
 
 .header__page-overview {
-  background-color: var(--accent-color);
-  color: var(--section-title-color);
-  font-size: var(--main-font-size);
   /* temporarily added */
   block-size: 117px;
   align-self: center;
   margin-block-end: 2rem;
 }
 
+.title-decor {
+  color: var(--section-title-color);
+  font-size: var(--main-font-size);
+  background-color: var(--accent-color);
+}
+
+/* Main sections */
+
+.main {
+  display: grid;
+  gap: 50px;
+  padding: 40px 10px;
+}
+
+.section {
+  display: grid;
+  gap: var(--section-gap);
+}
+
+.article {
+  display: grid;
+  gap: 10px;
+}
+
+.article-title {
+
+}
+
+.article-text {
+  
+}
+
+.small-title {
+  font-weight: var(--main-font-weight);
+}

@@ -6,10 +6,12 @@
   --main-font: IBM Plex Mono;
   --main-font-size: 18px;
   --main-font-weight: 400;
+  --font-weight-title: 700;
   --main-line-height: 23.4px;
   --bg-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --section-title-color: #000028;
   --section-title-bg-color: #FF0070;
+  --section-gap: 20px;
 }
