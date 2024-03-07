@@ -107,12 +107,11 @@
 
 .main__images {
   display: grid;
-  grid-template-columns: 100vi;
   grid-auto-flow: row;
   gap: 10px;
 }
 
-.main-images-image {
+.main__images-image {
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
