@@ -9,6 +9,10 @@
   --font-weight-title: 700;
   --main-line-height: 23.4px;
   --bg-color: #000028;
+  --decoration-color: #FF0070;
+  --header-menu-color: #FF0070;
+  --title-color: #DB00FF;
+  --title-shadow: #FF0070;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --section-title-color: #000028;
@@ -16,4 +20,6 @@
   --section-gap: 20px;
   --article-gap: 10px;
   --padding: 10px;
+  --button-color-hover: rgb(255, 0, 112, .4);
+  --link-shadow: 2px 1px 1px #FF0070;
 }
