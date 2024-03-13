@@ -12,12 +12,13 @@
 
   --link-shadow: 2px 2px 1px #FF0070;
   --bg-color: #000028;
-  --decoration-text-color: #FF0070;
+  --decoration-color: #FF0070;
   --title-color: #DB00FF;
   --title-shadow: #FF0070;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --section-title-color: #000028;
   --section-title-bg-color: #FF0070;
+  --button-color-hover: rgb(50, 49, 45, .4);
   --bg-image: url(../images/cover-image-dark.png);
 }

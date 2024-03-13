@@ -20,6 +20,7 @@
   --accent-color: #FF8DCB;
   --section-title-color: #353430;
   --section-title-bg-color: #FF8DCB;
+  --button-color-hover: rgb(255, 0, 112, .4);
   --bg-image: url(../images/cover-image-light.png);
 }
 
