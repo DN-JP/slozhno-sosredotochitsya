@@ -102,7 +102,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--button-focus);
 }
 
 .header__theme-menu-button:hover {
@@ -161,7 +161,7 @@
 }
 
 .section-description {
-  color: var(--accent-color);
+  color: var(--section-description-color);
   font-weight: var(--font-weight-title);
 }
 
@@ -210,7 +210,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-block-size: 668px;
+  block-size: 100vb;
 }
 
 @media (width >= 768px) {
