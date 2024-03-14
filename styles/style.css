@@ -161,6 +161,7 @@
 }
 
 .section-description {
+  font-size: var(--main-font-size);
   color: var(--section-description-color);
   font-weight: var(--font-weight-title);
 }
