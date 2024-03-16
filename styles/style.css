@@ -41,6 +41,7 @@
   right: 38px;
   color: var(--decoration-color);
   line-height: 25px;
+  visibility: var(--visibility);
 }
 
 .decoration-text::after {

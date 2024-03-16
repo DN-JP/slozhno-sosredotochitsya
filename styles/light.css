@@ -24,10 +24,7 @@
   --section-title-bg-color: #FF8DCB;
   --button-color-hover: rgb(50, 49, 45, .4);
   --bg-image: url(../images/cover-image-light.png);
-}
-
-.page.theme_light .decoration-text {
-  display: none;
+  --visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -46,6 +43,7 @@
     --section-title-bg-color: #FF8DCB;
     --button-color-hover: rgb(50, 49, 45, .4);
     --bg-image: url(../images/cover-image-light.png);
+    --visibility: hidden;
   }
 }
 

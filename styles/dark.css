@@ -24,6 +24,7 @@
   --section-title-bg-color: #FF0070;
   --button-color-hover: rgb(255, 0, 112, .4);
   --bg-image: url(../images/cover-image-dark.png);
+  --visibility: visible;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,5 +42,6 @@
     --section-title-bg-color: #FF0070;
     --button-color-hover: rgb(255, 0, 112, .4);
     --bg-image: url(../images/cover-image-dark.png);
+    --visibility: visible;
   }
 }

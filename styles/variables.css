@@ -23,4 +23,5 @@
   --padding: 10px;
   --button-color-hover: rgb(255, 0, 112, .4);
   --link-shadow: 2px 1px 1px #FF0070;
+  --visibility: visible;
 }
